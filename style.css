@@ -1,0 +1,25 @@
+p {
+    font-size: 25px;
+    text-align: center;
+}
+
+table {
+    margin-left: 25%;
+    width: 50%;
+    height: 300px;
+    border: 1.5px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    table-layout: fixed;
+}
+
+td {
+   border-right: 1.5px solid black;
+   border-top: 1.5px solid black;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.header {
+    background-color: lightgrey;  
+}
+
