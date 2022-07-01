@@ -190,84 +190,84 @@ $varStringPhp = "php";
         </tr>
         <tr>
          <td class="header">true</td>
-         <td></td>
-         <td></td>
-         <td></td>
-         <td></td>
-         <td></td>
-         <td></td>
-         <td></td>
-         <td></td>
-        </tr>
+         <td> <?php echo var_dump($varTrue===$varTrue)?> </td>
+         <td> <?php echo var_dump($varTrue===$varFalse)?> </td>
+         <td> <?php echo var_dump($varTrue===$varOne)?> </td>
+         <td> <?php echo var_dump($varTrue===$varZero)?> </td>
+         <td> <?php echo var_dump($varTrue===$varMinusOne)?> </td>
+         <td> <?php echo var_dump($varTrue===$varStringOne)?> </td>
+         <td> <?php echo var_dump($varTrue===$varNull)?> </td>
+         <td> <?php echo var_dump($varTrue===$varStringPhp)?> </td>
+         </tr>
         <td class="header">false</td>
-         <td></td>
-         <td></td>
-         <td></td>
-         <td></td>
-         <td></td>
-         <td></td>
-         <td></td>
-         <td></td>
+         <td> <?php echo var_dump($varFalse===$varTrue)?> </td>
+         <td> <?php echo var_dump($varFalse===$varFalse)?> </td>
+         <td> <?php echo var_dump($varFalse===$varOne)?> </td>
+         <td> <?php echo var_dump($varFalse===$varZero)?> </td>
+         <td> <?php echo var_dump($varFalse===$varMinusOne)?> </td>
+         <td> <?php echo var_dump($varFalse===$varStringOne)?> </td>
+         <td> <?php echo var_dump($varFalse===$varNull)?> </td>
+         <td> <?php echo var_dump($varFalse===$varStringPhp)?> </td>
         </tr>
         <td class="header">1</td>
-         <td></td>
-         <td></td>
-         <td></td>
-         <td></td>
-         <td></td>
-         <td></td>
-         <td></td>
-         <td></td>
+         <td> <?php echo var_dump($varOne===$varTrue)?> </td>
+         <td> <?php echo var_dump($varOne===$varFalse)?> </td>
+         <td> <?php echo var_dump($varOne===$varOne)?> </td>
+         <td> <?php echo var_dump($varOne===$varZero)?> </td>
+         <td> <?php echo var_dump($varOne===$varMinusOne)?> </td>
+         <td> <?php echo var_dump($varOne===$varStringOne)?> </td>
+         <td> <?php echo var_dump($varOne===$varNull)?> </td>
+         <td> <?php echo var_dump($varOne===$varStringPhp)?> </td>
         </tr>
         <td class="header">0</td>
-         <td></td>
-         <td></td>
-         <td></td>
-         <td></td>
-         <td></td>
-         <td></td>
-         <td></td>
-         <td></td>
+         <td> <?php echo var_dump($varZero===$varTrue)?> </td>
+         <td> <?php echo var_dump($varZero===$varFalse)?> </td>
+         <td> <?php echo var_dump($varZero===$varOne)?> </td>
+         <td> <?php echo var_dump($varZero===$varZero)?> </td>
+         <td> <?php echo var_dump($varZero===$varMinusOne)?> </td>
+         <td> <?php echo var_dump($varZero===$varStringOne)?> </td>
+         <td> <?php echo var_dump($varZero===$varNull)?> </td>
+         <td> <?php echo var_dump($varZero===$varStringPhp)?> </td>
         </tr>
         <td class="header">-1</td>
-         <td></td>
-         <td></td>
-         <td></td>
-         <td></td>
-         <td></td>
-         <td></td>
-         <td></td>
-         <td></td>
+         <td> <?php echo var_dump($varMinusOne===$varTrue)?> </td>
+         <td> <?php echo var_dump($varMinusOne===$varFalse)?> </td>
+         <td> <?php echo var_dump($varMinusOne===$varOne)?> </td>
+         <td> <?php echo var_dump($varMinusOne===$varZero)?> </td>
+         <td> <?php echo var_dump($varMinusOne===$varMinusOne)?> </td>
+         <td> <?php echo var_dump($varMinusOne===$varStringOne)?> </td>
+         <td> <?php echo var_dump($varMinusOne===$varNull)?> </td>
+         <td> <?php echo var_dump($varMinusOne===$varStringPhp)?> </td>
         </tr>
         <td class="header">"1"</td>
-         <td></td>
-         <td></td>
-         <td></td>
-         <td></td>
-         <td></td>
-         <td></td>
-         <td></td>
-         <td></td>
+         <td> <?php echo var_dump($varStringOne===$varTrue)?> </td>
+         <td> <?php echo var_dump($varStringOne===$varFalse)?> </td>
+         <td> <?php echo var_dump($varStringOne===$varOne)?> </td>
+         <td> <?php echo var_dump($varStringOne===$varZero)?> </td>
+         <td> <?php echo var_dump($varStringOne===$varMinusOne)?> </td>
+         <td> <?php echo var_dump($varStringOne===$varStringOne)?> </td>
+         <td> <?php echo var_dump($varStringOne===$varNull)?> </td>
+         <td> <?php echo var_dump($varStringOne===$varStringPhp)?> </td>
         </tr>
         <td class="header">null</td>
-         <td></td>
-         <td></td>
-         <td></td>
-         <td></td>
-         <td></td>
-         <td></td>
-         <td></td>
-         <td></td>
+         <td> <?php echo var_dump($varNull===$varTrue)?> </td>
+         <td> <?php echo var_dump($varNull===$varFalse)?> </td>
+         <td> <?php echo var_dump($varNull===$varOne)?> </td>
+         <td> <?php echo var_dump($varNull===$varZero)?> </td>
+         <td> <?php echo var_dump($varNull===$varMinusOne)?> </td>
+         <td> <?php echo var_dump($varNull===$varStringOne)?> </td>
+         <td> <?php echo var_dump($varNull===$varNull)?> </td>
+         <td> <?php echo var_dump($varNull===$varStringPhp)?> </td>
         </tr>
         <td class="header">"php"</td>
-         <td></td>
-         <td></td>
-         <td></td>
-         <td></td>
-         <td></td>
-         <td></td>
-         <td></td>
-         <td></td>
+         <td> <?php echo var_dump($varStringPhp===$varTrue)?> </td>
+         <td> <?php echo var_dump($varStringPhp===$varFalse)?> </td>
+         <td> <?php echo var_dump($varStringPhp===$varOne)?> </td>
+         <td> <?php echo var_dump($varStringPhp===$varZero)?> </td>
+         <td> <?php echo var_dump($varStringPhp===$varMinusOne)?> </td>
+         <td> <?php echo var_dump($varStringPhp===$varStringOne)?> </td>
+         <td> <?php echo var_dump($varStringPhp===$varNull)?> </td>
+         <td> <?php echo var_dump($varStringPhp===$varStringPhp)?> </td>
         </tr>
     </table>
 
