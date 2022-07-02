@@ -1,16 +1,3 @@
-<?php
-$var1 = 1;
-$var2 = 0;
-$varTrue = true;
-$varFalse = false;
-$varOne = 1;
-$varZero = 0;
-$varMinusOne = -1;
-$varStringOne = "1";
-$varNull = null;
-$varStringPhp = "php";
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -23,8 +10,23 @@ $varStringPhp = "php";
     
 </head>
 <body>
+
+    <?php  // Объявим переменные // ?>
+
+   <?php
+   $var1 = 1;
+   $var2 = 0;
+   $varTrue = true;
+   $varFalse = false;
+   $varOne = 1;
+   $varZero = 0;
+   $varMinusOne = -1;
+   $varStringOne = "1";
+   $varNull = null;
+   $varStringPhp = "php";
+   ?>
          
-      <?php  // Таблица истинности // ?>
+    <?php  // Таблица истинности // ?>
 
     <p>Таблица истинности PHP</p>
 
@@ -272,7 +274,7 @@ $varStringPhp = "php";
     </table>
     <br>
 
-    <p>Вывод: Налицо неявная типизация языка РНР. Таблица "мягкого" сравнения наглядно демонстрирует факт сравнения переменных разных типов. </p>
+    <p>Вывод: Налицо неявная типизация языка PHP. Таблица "мягкого" сравнения наглядно демонстрирует факт сравнения переменных разных типов. </p>
 
 </body>
 </html>
